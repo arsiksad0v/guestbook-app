@@ -11,5 +11,5 @@ app.use(bodyParser.json());
 app.use('/api/messages', messagesRouter);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${8000}`);
 });
